@@ -1,0 +1,26 @@
+﻿type Post {
+    id: ID!
+    name:String!
+    text:String!
+    createTimestamp:Int!
+}
+
+type Mutation {
+    createPost( name:String!,text:String!): Post
+}
+
+type Query{
+    getPost(id:ID):Post
+    listPosts(limit: Int): [Post]
+}
+
+type Subscription {
+    onCreatePost(name: String): Post
+    @aws_subscribe(mutations: ["createPost"])
+}
+
+schema {
+    mutation: Mutation
+    query: Query
+    subscription: Subscription
+}

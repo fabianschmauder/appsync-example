@@ -1,0 +1,26 @@
+{
+  "name": "app sync example frontend",
+  "version": "0.1.0",
+  "license" : "MIT",
+  "repository": "https://github.com/fabianschmauder/appsync-example.git",
+  "dependencies": {
+    "apollo-boost": "^0.1.12",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.9.2",
+    "react": "^16.4.1",
+    "react-apollo": "^2.1.9",
+    "react-dom": "^16.4.1",
+    "prop-types":"^15.6.2",
+    "aws-appsync": "^1.2.1",
+    "aws-appsync-react": "^1.0.21"
+  },
+  "devDependencies": {
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

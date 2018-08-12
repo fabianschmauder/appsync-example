@@ -1,0 +1,21 @@
+{
+  "name": "appsync-example-backend",
+  "version": "1.0.0",
+  "description": "appsync backend",
+  "license" : "MIT",
+  "repository": "https://github.com/fabianschmauder/appsync-example.git",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.10",
+    "@types/chai": "^4.1.4",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.5.8",
+    "aws-sdk": "^2.286.2",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "serverless-appsync-plugin": "1.0.1",
+    "serverless-plugin-typescript": "^1.1.5",
+    "dynamodb-local": "^0.0.22",
+    "ts-node": "^7.0.0"
+  },
+  "dependencies": {}
+}
